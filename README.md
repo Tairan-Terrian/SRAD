@@ -25,7 +25,9 @@ Download data.csv into file './dataset/'
 
 ## Preprocessing
 We use the data processing method of the reference [TGAT](https://openreview.net/pdf?id=rJeW1yHYwH), [repo](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs#inductive-representation-learning-on-temporal-graphs-iclr-2020).  
+
 We use then dense npy format to save the features in binary format. If edge features features are absent, it will replaced by a vector of zeros. 
+
 We use the Wikipedia and Mooc datasets below as an example for running instructions:
 ```python
 python build_dataset_graph.py --data wikipedia --bipartite --clusters 10
