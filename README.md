@@ -17,8 +17,11 @@ We use the Wikipedia and Mooc datasets below as an example for running instructi
 Download data.csv into file './dataset/'  
   
 [Wikipedia](http://snap.stanford.edu/jodie/wikipedia.csv)  
+
 [Mooc](http://snap.stanford.edu/jodie/mooc.csv)
+
 [LastFM](https://snap.stanford.edu/jodie/lastfm.csv)
+
 [Myket](https://github.com/erfanloghmani/myket-android-application-market-dataset)
 
 ## Preprocessing
