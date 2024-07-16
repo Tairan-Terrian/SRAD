@@ -36,7 +36,7 @@ python build_dataset_graph.py --data mooc --bipartite --clusters 10
 Training the SRAD Graph network based on half of black samples. The dimension of input_dim is aligned with the dimension of the interaction feature and defaults to 172.
 ```python
 python train.py --data_set wikipedia --anomaly_alpha 1e-1 --mask_label --mask_ratio 0.5 
-python train.py --data_set wikipedia --anomaly_alpha 1e-1 --mask_label --mask_ratio 0.5 --input_dim 4
+python train.py --data_set mooc --anomaly_alpha 1e-1 --mask_label --mask_ratio 0.5 --input_dim 4
 ```
 
 
