@@ -11,7 +11,6 @@ PyTorch implementation of the paper "[SRAD: Structural Representation Learning f
 + scikit-learn==1.3.2
 
 # Preprocessing
-We use the Wikipedia and Mooc datasets below as an example for running instructions:
 
 ## Dataset
 Download data.csv into file './dataset/'  
@@ -27,11 +26,12 @@ Download data.csv into file './dataset/'
 ## Preprocessing
 We use the data processing method of the reference [TGAT](https://openreview.net/pdf?id=rJeW1yHYwH), [repo](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs#inductive-representation-learning-on-temporal-graphs-iclr-2020).  
 We use then dense npy format to save the features in binary format. If edge features features are absent, it will replaced by a vector of zeros. 
+We use the Wikipedia and Mooc datasets below as an example for running instructions:
 ```python
 python build_dataset_graph.py --data wikipedia --bipartite --clusters 10
 python build_dataset_graph.py --data mooc --bipartite --clusters 10
 ```
-# Model Training
+## Model Training
 
 Training the SRAD Graph network based on half of black samples. The dimension of input_dim is aligned with the dimension of the interaction feature and defaults to 172.
 ```python
