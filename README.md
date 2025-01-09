@@ -1,6 +1,6 @@
 # SRAD: Structural Representation Learning for Anomaly Detection on Dynamic Graphs
 
-PyTorch implementation of the paper "[SRAD: Structural Representation Learning for Anomaly Detection on Dynamic Graphs]()".
+PyTorch implementation of the paper "[Structural Information Guided Representation Reconstruction for Dynamic Graph Anomaly Detection]()".
 
 #  Requirments
 + torch==1.13.1+cu116
